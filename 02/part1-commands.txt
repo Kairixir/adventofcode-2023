@@ -1,0 +1,7 @@
+# Run in vim
+g/[2-9][0-9] \(red\|blue\|green\)/d
+
+# Run in shell
+STRING=""; for line in $(cat mapping.txt); do STRING+=" -e \"/[1-9]${line%%,*} ${line##*,}/d\""; done; echo $STRING
+eval "sed -i \"\" $STRING part1-solution.txt"
+cat part1-solution.txt | cut -d":" -f1 | cut -d" " -f2 | awk "{ sum += \$1 } END { print sum }"
