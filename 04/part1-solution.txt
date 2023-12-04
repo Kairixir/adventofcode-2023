@@ -1,0 +1,10 @@
+Incomplete for just following instructions
+The file has to be prepared
+I'll fix this file later. The most important things are the macros following.
+It can be done better --- especially the word-pairs matching part --- and I'll do it later. 
+This still gets the work done! :)
+
+# Buffer @b
+yiw:s/"\(.*\)"/\~\1/ge:s/"/§/ge/\d
+# Buffer @a
+10@b:s/|.*//ge:s/§//ge:s/\`€kb~\zs\s\+\ze/€kb\~/*/ge:s/\s//ge:s/\`€kb~/1/e:\€kbs/\~/2/ge:s/^$/0/ge0C=-0"pyiwDkC=p+-J0j@a
