@@ -1,10 +1,12 @@
-# Reg @a
-"pyiwf;lD0:=- == 0 ? "" : ".+1,.+-normal p":.--j@a
 
-# Reg @n
-lx:%s/;/+/ggg%jk:%j:€ýaC=-€ýa
 :%s/.*: /{:%s/ €kb\zs \ze\d €kb\(\€kb \|$\)/0/g{:%s/\ze€kbs\ze€kb€kb€kb\d\+\ze.*€kl€kl€kl€kl€kl€kl€kl€kl€kl\(€kr€kr€ýa
 %s/\zs\(\d\{2}\)\ze.*\1/*/g
 %s/[^*]//g
 %s/^/1;
 %s/.\{2}\zs\(\**\)\ze/\=strlen(submatch(1))/g
+
+# Reg @a
+qaqqa"pyiwf;lD0:=- == 0 ? "" : ".+1,.+-normal p":.--j@aq@a
+
+# Finish
+lx:%s/;/+/ggg:%jC=-
