@@ -161,3 +161,6 @@ cython_debug/
 
 # Jupyter Virtual documents folder
 .virtual_documents
+
+# Vim swap files
+*.swp
