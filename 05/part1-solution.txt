@@ -1,0 +1,8 @@
+# Split seeds on new lines
+1s/ //g
+
+# Create macro that puts each block of text into its separate csv file
+"pyt:€ıaddV}:w ! > "data/p.csv"V}d
+
+let @c = 0
+:let @c = @c + 1"pyt:ddV}:w ! > "data/c-p.csv"V}d
