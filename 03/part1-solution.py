@@ -15,20 +15,24 @@ with open("just_stars.txt", "r") as f:
 line_num = 2
 line = lst[line_num]
 print(lst[line_num - 1])
-print(line)
+print(lst[line_num])
 print(lst[line_num + 1])
 
-for match in re.finditer(r"\*", line):
-    print(match)
-    print(match.start())
-    print(match.end())
-    print(match.span())
-    re.finditer(r"(?<=\.)(\d+)(?:(?=\.)|(?=$))", line)
-    for i in range(-1, 2):
-        inverse = ""
-        for j in range(match.start() - 1, match.start() + 2):
-            if lst[line_num + i][j] not in ["*", "."]:
-                pattern = re.compile(r"(\d+)\.")
-                first_part = pattern.search(lst[line_num + i], j).group(0)
-                print("First part: ", first_part)
-                pattern.sub(r"\." * len(first_part), lst[line)
+matches = []
+symbols = []
+for y, line in enumerate(lst):
+    for match in re.finditer(r"\*", line):
+        symbols[(match.start(),y)] = 
+
+for i, line in enumerate(lst):
+    for match in re.finditer(r"\d+", line)
+        for symb_lines in symbols[i-1:i+1]
+
+for line in lst:
+    matches.append(re.finditer(r"\d+", line))
+#for match in re.finditer(r"\*", line):
+#    # re.finditer(r"(?<=\.)(\d+)(?:(?=\.)|(?=$))", line)
+#    for i in range(-1, 2):
+#        pass
+#        re.findall(r"\d+", line[line_num + i]
+
