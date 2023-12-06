@@ -1,0 +1,2 @@
+# In vim input
+:%s/\s\+/ /g
