@@ -1,0 +1,118 @@
+['NBA' 'SXA' 'JVA' 'XVA' 'AAA' 'GRA']
+Periodic step for index 2: 11308
+[    1     1 11309     1     1     1] at index [2]
+Keys: ['PLG' 'BKX' 'VTZ' 'RMR' 'PNR' 'FQN'] at num_step 11309
+Periodic step for index 0: 13938
+[13939     1 11309     1     1     1] at index [0]
+Keys: ['BVZ' 'RNS' 'DCF' 'GSC' 'DSD' 'FCS'] at num_step 13939
+Periodic step for index 5: 15516
+[13939     1 11309     1     1 15517] at index [5]
+Keys: ['NCM' 'BHR' 'BTD' 'VNP' 'CNC' 'PSZ'] at num_step 15517
+Periodic step for index 1: 17620
+[13939 17621 11309     1     1 15517] at index [1]
+Keys: ['JKS' 'VGZ' 'JFT' 'CJH' 'BLJ' 'VDV'] at num_step 17621
+Periodic step for index 4: 19198
+[13939 17621 11309     1 19199 15517] at index [4]
+Keys: ['PGN' 'FVX' 'KCC' 'QGV' 'ZZZ' 'PPQ'] at num_step 19199
+Periodic step for index 3: 20776
+[13939 17621 11309 20777 19199 15517] at index [3]
+Keys: ['LSR' 'KNR' 'KNM' 'BPZ' 'DSQ' 'DQJ'] at num_step 20777
+Periodic step for index 2: 11309
+[13939 17621 22618 20777 19199 15517] at index [2]
+Keys: ['DQS' 'LRK' 'VTZ' 'LNX' 'QTK' 'XJP'] at num_step 22618
+Periodic step for index 0: 13939
+[27878 17621 22618 20777 19199 15517] at index [0]
+Keys: ['BVZ' 'NLN' 'LSF' 'FTT' 'SKN' 'QMT'] at num_step 27878
+Periodic step for index 5: 15517
+[27878 17621 22618 20777 19199 31034] at index [5]
+Keys: ['HQJ' 'QBX' 'FCM' 'PXJ' 'GDD' 'PSZ'] at num_step 31034
+Periodic step for index 2: 11309
+[27878 17621 33927 20777 19199 31034] at index [2]
+Keys: ['KGR' 'NBT' 'VTZ' 'NJB' 'QGG' 'FKT'] at num_step 33927
+Periodic step for index 1: 17621
+[27878 35242 33927 20777 19199 31034] at index [1]
+Keys: ['QQC' 'VGZ' 'GQD' 'RKJ' 'RQJ' 'KGS'] at num_step 35242
+Periodic step for index 4: 19199
+[27878 35242 33927 20777 38398 31034] at index [4]
+Keys: ['GMN' 'KNR' 'JVN' 'CJH' 'ZZZ' 'CCH'] at num_step 38398
+Periodic step for index 3: 20777
+[27878 35242 33927 41554 38398 31034] at index [3]
+Keys: ['CSS' 'SHJ' 'KRH' 'BPZ' 'STS' 'MMQ'] at num_step 41554
+Periodic step for index 0: 13939
+[41817 35242 33927 41554 38398 31034] at index [0]
+Keys: ['BVZ' 'RSJ' 'KCC' 'SVX' 'QTK' 'SMJ'] at num_step 41817
+Periodic step for index 2: 11309
+[41817 35242 45236 41554 38398 31034] at index [2]
+Keys: ['FHT' 'SKG' 'VTZ' 'NBB' 'XJT' 'SMX'] at num_step 45236
+Periodic step for index 5: 15517
+[41817 35242 45236 41554 38398 46551] at index [5]
+Keys: ['MQT' 'BKX' 'GQD' 'STL' 'KMP' 'PSZ'] at num_step 46551
+Periodic step for index 1: 17621
+[41817 52863 45236 41554 38398 46551] at index [1]
+Keys: ['MSN' 'VGZ' 'KRH' 'RMR' 'NLX' 'RHS'] at num_step 52863
+Periodic step for index 0: 13939
+[55756 52863 45236 41554 38398 46551] at index [0]
+Keys: ['BVZ' 'LRQ' 'GPL' 'QMK' 'XMV' 'VNG'] at num_step 55756
+Periodic step for index 2: 11309
+[55756 52863 56545 41554 38398 46551] at index [2]
+Keys: ['HJP' 'CKD' 'VTZ' 'JQP' 'SRL' 'LJC'] at num_step 56545
+Periodic step for index 4: 19199
+[55756 52863 56545 41554 57597 46551] at index [4]
+Keys: ['TVP' 'MSC' 'CJQ' 'KDV' 'ZZZ' 'VRC'] at num_step 57597
+Periodic step for index 5: 15517
+[55756 52863 56545 41554 57597 62068] at index [5]
+Keys: ['BGQ' 'XPR' 'XHJ' 'KQD' 'MGX' 'PSZ'] at num_step 62068
+Periodic step for index 3: 20777
+[55756 52863 56545 62331 57597 62068] at index [3]
+Keys: ['NNC' 'VPR' 'QXC' 'BPZ' 'DSM' 'VJJ'] at num_step 62331
+Periodic step for index 2: 11309
+[55756 52863 67854 62331 57597 62068] at index [2]
+Keys: ['KXX' 'FFH' 'VTZ' 'CNM' 'TQJ' 'DSR'] at num_step 67854
+Periodic step for index 0: 13939
+[69695 52863 67854 62331 57597 62068] at index [0]
+Keys: ['BVZ' 'DCB' 'HCK' 'HTJ' 'GXM' 'RSC'] at num_step 69695
+Periodic step for index 1: 17621
+[69695 70484 67854 62331 57597 62068] at index [1]
+Keys: ['HJP' 'VGZ' 'DCF' 'KKQ' 'RHN' 'BHD'] at num_step 70484
+Periodic step for index 4: 19199
+[69695 70484 67854 62331 76796 62068] at index [4]
+Keys: ['FMV' 'SHJ' 'XRQ' 'RKJ' 'ZZZ' 'JDQ'] at num_step 76796
+Periodic step for index 5: 15517
+[69695 70484 67854 62331 76796 77585] at index [5]
+Keys: ['LCT' 'XPM' 'MJR' 'TDD' 'LMV' 'PSZ'] at num_step 77585
+Periodic step for index 2: 11309
+[69695 70484 79163 62331 76796 77585] at index [2]
+Keys: ['FJF' 'CHG' 'VTZ' 'XHB' 'MDJ' 'FLH'] at num_step 79163
+Periodic step for index 3: 20777
+[69695 70484 79163 83108 76796 77585] at index [3]
+Keys: ['TKF' 'DJN' 'VMC' 'BPZ' 'RJH' 'KML'] at num_step 83108
+Periodic step for index 0: 13939
+[83634 70484 79163 83108 76796 77585] at index [0]
+Keys: ['BVZ' 'XBV' 'JVN' 'FBQ' 'XJT' 'QRT'] at num_step 83634
+Periodic step for index 1: 17621
+[83634 88105 79163 83108 76796 77585] at index [1]
+Keys: ['KNV' 'VGZ' 'XRQ' 'STL' 'PNR' 'MMQ'] at num_step 88105
+Periodic step for index 2: 11309
+[83634 88105 90472 83108 76796 77585] at index [2]
+Keys: ['LSR' 'BQF' 'VTZ' 'HTJ' 'KRT' 'CJX'] at num_step 90472
+Periodic step for index 5: 15517
+[83634 88105 90472 83108 76796 93102] at index [5]
+Keys: ['FJF' 'LRK' 'DCF' 'JFC' 'XGN' 'PSZ'] at num_step 93102
+Periodic step for index 4: 19199
+[83634 88105 90472 83108 95995 93102] at index [4]
+Keys: ['GVH' 'TCJ' 'XHJ' 'BPL' 'ZZZ' 'FKT'] at num_step 95995
+Periodic step for index 0: 13939
+[97573 88105 90472 83108 95995 93102] at index [0]
+Keys: ['BVZ' 'VPR' 'LCN' 'RKJ' 'DSQ' 'BBN'] at num_step 97573
+Periodic step for index 2: 11309
+[ 97573  88105 101781  83108  95995  93102] at index [2]
+Keys: ['RDM' 'JCJ' 'VTZ' 'DJL' 'KKL' 'PXK'] at num_step 101781
+Periodic step for index 3: 20777
+[ 97573  88105 101781 103885  95995  93102] at index [3]
+Keys: ['BGQ' 'JGF' 'NGL' 'BPZ' 'QJF' 'SMJ'] at num_step 103885
+Periodic step for index 1: 17621
+[ 97573 105726 101781 103885  95995  93102] at index [1]
+Keys: ['HPF' 'VGZ' 'VMC' 'LNX' 'LST' 'SHD'] at num_step 105726
+Periodic step for index 5: 15517
+[ 97573 105726 101781 103885  95995 108619] at index [5]
+Keys: ['MSN' 'LRQ' 'NNR' 'RGK' 'HQS' 'PSZ'] at num_step 108619
