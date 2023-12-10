@@ -1,7 +1,7 @@
 import numpy as np
 
 FILE = "part2-solution.txt"
-FILE = "part2-test.txt"
+#FILE = "part2-test.txt"
 
 
 class PuzzleInverseTree:
@@ -24,9 +24,6 @@ class PuzzleInverseTree:
         for i in range(len(nodes[0])):
             for j in range(i):
                 nodes[j + 1][i - j - 1] = nodes[j][i - j] - nodes[j][i - j - 1]
-                # nodes[p1 + 1][p2 - 1] = nodes[p1][p2] - nodes[p1][p2 - 1]
-            #   if not nodes[len(nodes) - 1].any():
-            #       break
             nodes.append(np.zeros(len(nodes[0]) - i - 1))
         self.nodes = nodes
 
@@ -55,7 +52,7 @@ def process_line(line: str):
     nums = np.array(list(map(int, line.strip().split(" "))))
     pit = PuzzleInverseTree(nums)
     pit.build_tree_postfix(True)
-    pit.print_tree()
+    # pit.print_tree()
     return pit.next_val()
 
 
