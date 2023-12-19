@@ -1,0 +1,180 @@
+checkhealth
+exe 'edit '.stdpath('config').'/init.vim
+exe 'edit '.stdpath('config').'/init.vim'
+write ++p
+help nvim-from-vim
+PlugInstall
+help shada
+p
+help vim-differences
+python
+python3
+python -v
+terminal
+lua print("Hello world")
+help
+lua num = 42
+lua print(42)
+lua num = nil
+lua while num < 50 do
+lua num = 38
+lua while num < 50 do num = num + 1 end
+lua print(num)
+lua local line = io.read()
+lua print(line)
+lua print(vim.api.nvim_get_var('mapleader'))
+new vertical
+sort1
+help sort
+lua sort
+lua print("heya")
+lua EOF
+lua << EOF
+sort!
+sort! "^.\{1}"
+sort! "^.\{1,2}"
+sort! "^.\{1,3}"
+sort! "^.\{1,4}"
+g/^.*\(.\).*\1 /m$
+g/^.*\(.\).*\(.\).*\1.*\2.* /m$
+g/^.*\(.\).*\(.\).*\1.*\2.*.*\(\1\ /m$
+g/^.*\(.\).*\(.\).*\2.*\2.* /m$
+g/^.*\(.\).*\(.\).*\2.*\1.* /m$
+g/^/m0
+new part1-commands.txt
+10j
+53
+54
+g/^.*\(.\).*\(.\).*\(\1\|\2\).*\(\1\|\2\).* /m$
+g/^.*\(.\).*\(.\).*\(\1\|\2\).*\(\1\|\2\) /m$
+set maxmempattern = 5000
+g/^.*\(.\).*\(.\).*\(\1\|\2\).*\(\1\|\2\).*\(\1\|\2\) /m$
+50
+g/^.*\(.\).*\1.*\1.* /m$
+g/^.*\(.\).*\1.*\1.*\1.* /m$
+g/^.*\(.\).*\1.*\1.*\1.*\1.* /m$
+reg
+mark
+marks
+b
+b7
+b1
+bnext
+bprev
+%s/\v\d+ \zs.+\ze /*/g
+1000J
+28
+redolist
+undolist
+h undolist
+undo
+g/^.*\(.\).*\1.* /m$
+g/\v^.*(.).*(.).*(\1|\2).*(\1|\2).* /
+nh
+23
+27
+21
+16
+%s/^/A /g
+%s/\zs^[^ ]*\ze .*\(.\).*\1.* /B/g
+%s/^\zs\ze/B/g
+%s/\\zs
+%s/\\zs^/^\\zs/g
+%s/^\zs[^ ]*\ze .*\(.\).*\1.* /B/g
+%s/^\zs[^ ]*\ze .*V
+14
+'<,'>39
+'<,'>w vimscript-execute.vim
+buf
+bu
+buffer
+bus
+%s/g/d
+g/g/d
+g/^g/d
+bn
+w part1-commands.vim
+open part1
+%s/#/"/g
+%s/^#/"/g
+%s/^/\=line('.').' '/
+%
+%J
+new test-solution.vim
+lua print(substitutions)
+lua substitutions = {'T/B','J/C','Q/D','K/E','A/F'}
+lua lua substitutions = {'T/B','J/C','Q/D','K/E','A/F'}
+:lua for _, pattern in pairs(substitutions) do vim.api.nvim_exec("%s/" .. pattern .. "/g", true) end
+'<,'>w ! pbcopy
+15,17s/\.\*//g
+source vimscript-execute.vim
+15,17s/\\\([()|]\)/\1/g
+%s/\v\d+ \zs.* /* /g
+%s/^/+/g
+w pattern-matching-part1.vim
+wq
+ope
+new part2-commands.vim
+r part1-commands.vim
+lua 
+'<,'>
+lua substitutions = {'T/B','J/1','Q/D','K/E','A/F'}
+lua for _, pattern in pairs(substitutions) do vim.api.nvim_exec("%s/" .. pattern .. "/g", true) end
+w part1-executable-highest-hand-ranking.vim
+w part2-executable-highest-hand-ranking.vim
+%s/
+%s/\\\([()|]\)/\1/g
+%s/%s\/\zs\ze/\\v
+15,17
+15,17s/\\v//
+noh
+5
+%sort i /\v./
+%s/\%V./\=join(sort(split(submatch(0), '\zs')), '')/g
+new part2-python-sorter.py
+Black
+.
+!python
+!python
+tabn
+ex part2-executable-highest-hand-ranking.vim
+bp
+set maxmempattern=5000
+/[^ ]*/
+/[^ ]* .* /
+3,$s/ \// .*\0
+%s/\v(.{-})/
+nohl
+%s/^.\zs .\{-} \ze/
+%s/^. \zs[^ ]* \ze//g
+!python part2-python-sorter.py
+tp
+pt
+tabp
+w part2-solution-final.txt
+w! part2-solution-final.txt
+r part2-solution-pythonsorted.txt
+buffers
+b part2-solution-final.txt
+.,.+6
+b6
+q
+ls
+e part1-executable-highest-hand-ranking.vim
+q!
+e part2-executable-highest-hand-ranking.vim
+w
+e part2-solution-final.txt
+source part2-executable-highest-hand-ranking.vim
+g/\v(.)\1{3}/d
+g/\v(.)\1{2}.*\1/d
+/
+%s/^..\zs.\{5}.\ze//g
+sort
+%s/^/\=line('.').' '
+%s/\v\d+\zs.* \ze/ * /g
+2,$s/^/+/g
+history ! > history-of-commands.hist
+history > history-of-commands.hist
+history
+
