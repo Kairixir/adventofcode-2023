@@ -167,3 +167,6 @@ cython_debug/
 
 # My config files
 config*
+
+# VS code files
+.vscode
